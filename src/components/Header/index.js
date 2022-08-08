@@ -9,7 +9,7 @@ import Medusa1 from "../../imagenes/medusa1.jpg";
   
     <a href='#'>
     <div className='logo'>
-      <img src={Medusa1} alt="medusa1" />
+      <img src={Medusa1} alt="medusa1"  width='150'/>
     </div>
     </a>
     <ul>
@@ -23,8 +23,9 @@ import Medusa1 from "../../imagenes/medusa1.jpg";
 
     </ul>
     <div className='cart'>
-    <box-icon name='cart' ></box-icon>
-    <span className='item__total'></span>
+    <box-icon name="cart" size='lg' animation="burst-hover"></box-icon>
+   
+    <span className='item__total'>0</span>
     </div>
     
 

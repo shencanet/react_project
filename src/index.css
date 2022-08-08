@@ -40,3 +40,54 @@ a:hover{
 li{
     list-style: none;
 }
+
+header ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+header ul li {
+    padding: 0 1rem ;
+
+}
+
+header ul li a {
+    font-weight:bold ;
+}
+
+header .cart {
+    position: relative;
+    cursor: pointer;
+}
+header .cart box-icon{
+    width: 45px;
+    height: 45px;
+}
+
+header .cart span{
+position: absolute;
+top: -1rem;
+right: -1.5rem;
+width: 2.5rem;
+height: 2.5rem;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+padding: 0rem;
+font-size: 1.5rem;
+font-weight: 700;
+background: red;
+}
+
+/*----------------MEDIA-------------------*/
+@media only screen and (max-width: 600px){
+    header ul{
+        display: none;
+
+    }
+
+}
