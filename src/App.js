@@ -1,12 +1,19 @@
-import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Header } from './components/Header';
+import { ProductosLista } from './components/productos/index'
 
 
 
 function App() {
   return (
 <div className='App'>
-  <h1>Hola mundo cruel</h1>
+  <Header />
+  <ProductosLista />
+  
+  
+
+ 
+
 </div>
 
   );

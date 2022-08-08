@@ -1,8 +1,12 @@
 import React from 'react'
 
-esport const productosLista = () => {
+export const ProductosLista = () => {
   return (
-    <div>index</div>
+    <div>
+        <h1>
+            productos
+        </h1>
+    </div>
   )
 }
 
