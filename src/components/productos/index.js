@@ -23,7 +23,50 @@ export const ProductosLista = () => {
       <div>
       <a href='#' className='btn' >Vista</a>
       </div></div>
-    </div></div>
+    </div>
+    
+    <div className='producto'>
+    <a href='#'>
+    <div className='producto__img'>
+    <img src={IMG} alt="lista" />
+    </div>
+    </a>
+    <div className='producto__footer'>
+      <h1>Title</h1>
+      <p>Categoria</p>
+      <p className='price'>300$</p>
+    </div>
+    <div  className='buttom'>
+      <button className='btn'>añadir al carrito</button>
+      
+      <div>
+      <a href='#' className='btn' >Vista</a>
+      </div></div>
+    </div>
+
+    <div className='producto'>
+    <a href='#'>
+    <div className='producto__img'>
+    <img src={IMG} alt="lista" />
+    </div>
+    </a>
+    <div className='producto__footer'>
+      <h1>Title</h1>
+      <p>Categoria</p>
+      <p className='price'>300$</p>
+    </div>
+    <div  className='buttom'>
+      <button className='btn'>añadir al carrito</button>
+      
+      <div>
+      <a href='#' className='btn' >Vista</a>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    </div>
     
     
     </>
