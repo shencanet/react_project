@@ -1,5 +1,7 @@
 import React from 'react'
-import IMG from "../../imagenes/medusa2.jpg";
+import IMG1 from "../../imagenes/medusa1.jpg";
+import IMG2 from "../../imagenes/medusa5.jpg";
+import IMG4 from "../../imagenes/medusa4.jpg";
 
 export const ProductosLista = () => {
   return (
@@ -9,7 +11,7 @@ export const ProductosLista = () => {
     <div className='producto'>
     <a href='#'>
     <div className='producto__img'>
-    <img src={IMG} alt="lista" />
+    <img src={IMG1} alt="lista" />
     </div>
     </a>
     <div className='producto__footer'>
@@ -18,7 +20,7 @@ export const ProductosLista = () => {
       <p className='price'>300$</p>
     </div>
     <div  className='buttom'>
-      <button className='btn'>añadir al carrito</button>
+      <button className='btn'>Añadir al carrito</button>
       
       <div>
       <a href='#' className='btn' >Vista</a>
@@ -28,7 +30,7 @@ export const ProductosLista = () => {
     <div className='producto'>
     <a href='#'>
     <div className='producto__img'>
-    <img src={IMG} alt="lista" />
+    <img src={IMG1} alt="lista" />
     </div>
     </a>
     <div className='producto__footer'>
@@ -37,7 +39,7 @@ export const ProductosLista = () => {
       <p className='price'>300$</p>
     </div>
     <div  className='buttom'>
-      <button className='btn'>añadir al carrito</button>
+      <button className='btn'>Añadir al carrito</button>
       
       <div>
       <a href='#' className='btn' >Vista</a>
@@ -47,7 +49,7 @@ export const ProductosLista = () => {
     <div className='producto'>
     <a href='#'>
     <div className='producto__img'>
-    <img src={IMG} alt="lista" />
+    <img src={IMG1} alt="lista" />
     </div>
     </a>
     <div className='producto__footer'>
@@ -56,13 +58,69 @@ export const ProductosLista = () => {
       <p className='price'>300$</p>
     </div>
     <div  className='buttom'>
-      <button className='btn'>añadir al carrito</button>
+      <button className='btn'>Añadir al carrito</button>
       
       <div>
       <a href='#' className='btn' >Vista</a>
       </div></div>
     </div>
     
+    <div className='producto'>
+    <a href='#'>
+    <div className='producto__img'>
+    <img src={IMG1} alt="lista" />
+    </div>
+    </a>
+    <div className='producto__footer'>
+      <h1>Title</h1>
+      <p>Categoria</p>
+      <p className='price'>300$</p>
+    </div>
+    <div  className='buttom'>
+      <button className='btn'>Añadir al carrito</button>
+      
+      <div>
+      <a href='#' className='btn' >Vista</a>
+      </div></div>
+    </div>
+
+    <div className='producto'>
+    <a href='#'>
+    <div className='producto__img'>
+    <img src={IMG1} alt="lista" />
+    </div>
+    </a>
+    <div className='producto__footer'>
+      <h1>Title</h1>
+      <p>Categoria</p>
+      <p className='price'>300$</p>
+    </div>
+    <div  className='buttom'>
+      <button className='btn'>Añadir al carrito</button>
+      
+      <div>
+      <a href='#' className='btn' >Vista</a>
+      </div></div>
+    </div>
+
+    <div className='producto'>
+    <a href='#'>
+    <div className='producto__img'>
+    <img src={IMG1} alt="lista" />
+    </div>
+    </a>
+    <div className='producto__footer'>
+      <h1>Title</h1>
+      <p>Categoria</p>
+      <p className='price'>300$</p>
+    </div>
+    <div  className='buttom'>
+      <button className='btn'>Añadir al carrito</button>
+      
+      <div>
+      <a href='#' className='btn' >Vista</a>
+      </div></div>
+    </div>
     
     
     
