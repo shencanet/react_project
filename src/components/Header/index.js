@@ -1,7 +1,7 @@
 import { BoxIconElement } from 'boxicons';
 import React from 'react';
 import 'boxicons';
-import Medusa1 from "../../imagenes/medusa1.jpg";
+import Medusa1 from "../../imagenes/medusa1.jpg";//logo tienda 
 
  export const Header = () => {
   return (
@@ -14,7 +14,7 @@ import Medusa1 from "../../imagenes/medusa1.jpg";
     </a>
     <ul>
     <li>
-      <a href='#'>INICIO</a>
+      <a href='#'>Inicio</a>
     </li>
     <li>
       <a href='#'>Producto</a>
