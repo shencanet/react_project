@@ -1,3 +1,4 @@
+
 .App{
     max-width: 1550px;
     width: 100%;
@@ -85,7 +86,7 @@ background: red;
 
 /*----PRODUCTOS----------------------*/
 .title{
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding: 10rem 0 0 0;
     color: #08a05c;
 
@@ -96,9 +97,40 @@ background: red;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap: 3rem 1rem;
+    box-sizing: border-box;
+
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+
+}
+.producto:hover{
+    border: 6px solid #08a05c;
+}
+.producto__img img{
+    width: 310px;
+}
+
+.producto__footer{
+    padding: 1rem;
 
 }
 
+.producto__footer h1{
+   font-weight: 600;
+   font-size: 1.5rem;
+   color: #1a202c;
+   font-family: Nunito ,Arial, Helvetica, sans-serif;
+}
+
+.producto__footer p{
+    font-weight: 700;
+    color: rgba(0, 0, 0, .555) ;
+}
 /*----------------MEDIA-------------------*/
 @media only screen and (max-width: 600px){
     header ul{

@@ -6,9 +6,10 @@ export const ProductosLista = () => {
     <>
     <h1 className='title'>Productos</h1>
     <div className='productos'>
-    <a href='#'>
     <div className='producto'>
-    <img src={IMG} alt="" />
+    <a href='#'>
+    <div className='producto__img'>
+    <img src={IMG} alt="lista" />
     </div>
     </a>
     <div className='producto__footer'>
@@ -18,11 +19,12 @@ export const ProductosLista = () => {
     </div>
     <div  className='buttom'>
       <button className='btn'>añadir al carrito</button>
+      
       <div>
       <a href='#' className='btn' >Vista</a>
-      </div>
-    </div>
-    </div>
+      </div></div>
+    </div></div>
+    
     
     </>
   )
