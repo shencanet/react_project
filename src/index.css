@@ -3,7 +3,7 @@
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
-    box-sizing: 0 2px 6px #08a05ca4;
+    box-shadow: 0 2px 5px #08a05ca4;
     padding: 0 15px;
     box-sizing: border-box;
 }
@@ -81,6 +81,22 @@ padding: 0rem;
 font-size: 1.5rem;
 font-weight: 700;
 background: red;
+}
+
+/*----PRODUCTOS----------------------*/
+.title{
+    font-size: 2.4rem;
+    padding: 10rem 0 0 0;
+    color: #08a05c;
+
+}
+.productos{
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 1rem;
+
 }
 
 /*----------------MEDIA-------------------*/

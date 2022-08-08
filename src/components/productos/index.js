@@ -4,7 +4,7 @@ import IMG from "../../imagenes/medusa2.jpg";
 export const ProductosLista = () => {
   return (
     <>
-    <h1 className='title'>PRODUCTOS</h1>
+    <h1 className='title'>Productos</h1>
     <div className='productos'>
     <a href='#'>
     <div className='producto'>
@@ -18,7 +18,9 @@ export const ProductosLista = () => {
     </div>
     <div  className='buttom'>
       <button className='btn'>añadir al carrito</button>
-      <a href='#'></a>
+      <div>
+      <a href='#' className='btn' >Vista</a>
+      </div>
     </div>
     </div>
     
