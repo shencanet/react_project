@@ -7,3 +7,36 @@
     padding: 0 15px;
     box-sizing: border-box;
 }
+
+/*--------------HEADER------------------*/
+
+header{
+
+    width: 97%;
+    min-height: 100px;
+    max-width: 1530px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 5px 10px #08a05c50;
+
+
+
+}
+
+a{
+    color: black;
+    text-decoration: uppercase;
+}
+a:hover{
+    color: #08a05c;
+}
+
+li{
+    list-style: none;
+}

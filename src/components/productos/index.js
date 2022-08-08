@@ -4,7 +4,7 @@ export const ProductosLista = () => {
   return (
     <div>
         <h1>
-            productos
+            productos lista
         </h1>
     </div>
   )
