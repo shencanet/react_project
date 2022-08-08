@@ -1,5 +1,5 @@
 import React from "react";
-import Amanda2 from "./Amanda";
+import Amanda2 from "../imagenes/amanda.png";
 
 
 const Amanda = () => {

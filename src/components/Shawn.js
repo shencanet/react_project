@@ -1,5 +1,5 @@
 import React from "react";
-import Shawn2 from "./Shawn";
+import Shawn2 from "../imagenes/shawn.png";
 
 const Shawn = () => {
 

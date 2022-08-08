@@ -1,5 +1,5 @@
 import React from "react";
-import Emma2 from "./Emma";
+import Emma2 from "../imagenes/emma.png";
 
 const Emma = () => {
 
