@@ -25,7 +25,7 @@ import Medusa1 from "../../imagenes/medusa1.jpg";//logo tienda
     <div className='cart'>
     <box-icon name="cart" size='lg' animation="burst-hover"></box-icon>
    
-    <span className='item__total'>0</span>
+    <span className='item__total'>2</span>
     </div>
     
 
